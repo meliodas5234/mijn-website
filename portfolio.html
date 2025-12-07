@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Projects</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="border-bottom">
+  <nav class="navbar navbar-expand-lg bg-white py-3">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <span class="d-inline-block rounded border p-2" style="width:32px;height:32px"></span>
+        <strong>Portfolio</strong>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Projects</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-primary" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="py-5">
+  <div class="container">
+    <header class="text-center mb-4">
+      <h1 class="h5 text-muted">My Projects</h1>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </header>
+
+    <ul class="nav nav-pills justify-content-center gap-2 projects-pills mb-4">
+      <li class="nav-item"><button class="nav-link active" type="button">All Projects</button></li>
+      <li class="nav-item"><button class="nav-link" type="button">Web Development</button></li>
+      <li class="nav-item"><button class="nav-link" type="button">Mobile Apps</button></li>
+      <li class="nav-item"><button class="nav-link" type="button">UI/UX Design</button></li>
+    </ul>
+
+    <section class="row g-4">
+      <article class="col-12 col-md-6 col-lg-4">
+        <a class="text-reset d-block border rounded-4 p-3 h-100" href="projectnaam-deelopdracht3.html">
+          <h2 class="h6">Project 1</h2>
+          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non risus.</p>
+        </a>
+      </article>
+      <article class="col-12 col-md-6 col-lg-4">
+        <a class="text-reset d-block border rounded-4 p-3 h-100" href="projectnaam-deelopdracht3.html">
+          <h2 class="h6">Project 2</h2>
+          <p class="mb-0">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </a>
+      </article>
+      <article class="col-12 col-md-6 col-lg-4">
+        <a class="text-reset d-block border rounded-4 p-3 h-100" href="projectnaam-deelopdracht3.html">
+          <h2 class="h6">Project 3</h2>
+          <p class="mb-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+        </a>
+      </article>
+      <article class="col-12 col-md-6 col-lg-4">
+        <a class="text-reset d-block border rounded-4 p-3 h-100" href="projectnaam-deelopdracht3.html">
+          <h2 class="h6">Project 4</h2>
+          <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+        </a>
+      </article>
+      <article class="col-12 col-md-6 col-lg-4">
+        <a class="text-reset d-block border rounded-4 p-3 h-100" href="projectnaam-deelopdracht3.html">
+          <h2 class="h6">Project 5</h2>
+          <p class="mb-0">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+        </a>
+      </article>
+      <article class="col-12 col-md-6 col-lg-4">
+        <a class="text-reset d-block border rounded-4 p-3 h-100" href="projectnaam-deelopdracht3.html">
+          <h2 class="h6">Project 6</h2>
+          <p class="mb-0">Consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+        </a>
+      </article>
+    </section>
+  </div>
+</main>
+
+<footer class="pt-5 border-top bg-white">
+  <div class="container">
+    <p class="text-center small text-muted py-4 mb-0">© <span id="year"></span> Portfolio.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
